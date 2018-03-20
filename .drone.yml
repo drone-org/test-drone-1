@@ -1,0 +1,8 @@
+workspace:
+  base: /test
+
+pipeline:
+  spesialmodul:
+    image: docker
+    commands:
+      - docker build -t foo .
